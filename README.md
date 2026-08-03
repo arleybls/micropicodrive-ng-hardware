@@ -25,6 +25,16 @@ The main board is essentially the original MicroPicoDrive design, updated to KiC
 
 Both projects are in KiCad 10 format. Custom symbol and footprint libraries are included alongside each project and referenced with relative paths, so the projects open without extra library setup.
 
+## Assembled boards
+
+Cartridge (left) and main board (right), front side — the cartridge's ST7735S display with the K1–K4 buttons, and the main board's level shifters, cartridge edge-connector slot, and ribbon cable to the QL:
+
+![Cartridge and main board, front side](images/20260803_145745.jpg)
+
+Back side — the cartridge's microSD socket, and the main board with the Raspberry Pi Pico mounted and the power connector:
+
+![Cartridge and main board, back side](images/20260803_145758.jpg)
+
 ## Fabrication
 
 Gerber and drill files are included for both boards:
