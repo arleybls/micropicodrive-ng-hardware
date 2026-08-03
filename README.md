@@ -57,3 +57,8 @@ Interactive HTML BOMs are provided per board:
 ## License
 
 MIT — see [LICENSE](LICENSE). The license retains the original author's copyright notice alongside the notice for the modifications in this repository.
+
+## Related repositories
+
+- [micropicodrive-ng-firmware](https://github.com/arleybls/micropicodrive-ng-firmware) — the firmware that brings these boards to life. It runs on the Pico mounted on the main board and answers the QL's Microdrive bus in real time, serving cartridge images from the microSD card with a menu-driven UI on the cartridge's colour display. Two builds are available: Lite for the standard Pico (RP2040) and Full for the Pico 2 W (RP2350) with Bluetooth and wireless firmware updates. Flash it to the assembled hardware and the QL sees a real Microdrive.
+- [sinclair-mdv-builder](https://github.com/arleybls/sinclair-mdv-builder) — a Windows desktop tool (.NET 8 / WPF) to create, inspect, edit, and extract Sinclair QL Microdrive images (`.MDV`). Use it to author or modify cartridge images on your PC — importing files or ZIP archives while preserving QL file metadata — then copy them to the microSD card for this drive to serve to the QL.
