@@ -5939,7 +5939,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CartridgeComponents:Edge"
+		(property "Footprint" "My Footprint Library:MicroPicoDrive Cartridge Edge"
 			(at 60.96 123.19 0)
 			(hide yes)
 			(show_name no)
