@@ -34,10 +34,10 @@ Gerber and drill files are included for both boards:
 
 ## Bill of materials
 
-See [BOM.txt](BOM.txt) for the component list, including purchase links for the less common parts (level shifters, edge connector, display module, SD socket). Interactive HTML BOMs are provided per board:
+Interactive HTML BOMs are provided per board:
 
-- Main board: [MicroPicoDrive/ibom-mainboard.html](MicroPicoDrive/ibom-mainboard.html)
-- Cartridge: [MicroPicoDriveCartridge/ibom-cartridge.html](MicroPicoDriveCartridge/ibom-cartridge.html)
+- Main board: [MicroPicoDrive/bom/ibom.html](MicroPicoDrive/bom/ibom.html)
+- Cartridge: [MicroPicoDriveCartridge/bom/ibom.html](MicroPicoDriveCartridge/bom/ibom.html)
 
 ## Credits
 
