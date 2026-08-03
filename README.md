@@ -31,7 +31,7 @@ Cartridge (left) and main board (right), front side — the cartridge's ST7735S 
 
 <img src="images/20260803_145745.jpg" alt="Cartridge and main board, front side" width="600">
 
-Back side — the cartridge's microSD socket, and the main board with the Raspberry Pi Pico mounted and the power connector:
+Back side — the cartridge's microSD socket, and the main board with the Raspberry Pi Pico mounted and the motor connector:
 
 <img src="images/20260803_145758.jpg" alt="Cartridge and main board, back side" width="600">
 
