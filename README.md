@@ -30,18 +30,14 @@ Both projects are in KiCad 10 format. Custom symbol and footprint libraries are 
 Gerber and drill files are included for both boards:
 
 - Main board: [MicroPicoDrive/gerbers/](MicroPicoDrive/gerbers/)
-- Cartridge: [MicroPicoDriveCartridge/MicroPicoDriveCartridge/gerbers/](MicroPicoDriveCartridge/MicroPicoDriveCartridge/gerbers/)
-
-> **Note:** the main-board gerbers were exported on 2026-06-04 and the PCB file has a later edit. Verify against the sources (or re-export from KiCad) before ordering.
+- Cartridge: [MicroPicoDriveCartridge/gerbers/](MicroPicoDriveCartridge/gerbers/)
 
 ## Bill of materials
 
-See [BOM.txt](BOM.txt) for the component list, including purchase links for the less common parts (level shifters, edge connector, display module, SD socket). An interactive HTML BOM for the cartridge is provided in [ibom-cartridge.html](ibom-cartridge.html) — note it may correspond to an earlier cartridge revision.
+See [BOM.txt](BOM.txt) for the component list, including purchase links for the less common parts (level shifters, edge connector, display module, SD socket). Interactive HTML BOMs are provided per board:
 
-## Documentation
-
-- [SCHEMATIC_DOCUMENTATION.md](SCHEMATIC_DOCUMENTATION.md) — signal-level walkthrough of both boards: power architecture, level shifting, QL bus interface, and edge-connector pinout. **Caveat:** it describes the earlier I²C OLED cartridge; the schematics in this repository already implement the SPI display described below.
-- [UPGRADE_PLAN_ST7735_4BTN.md](UPGRADE_PLAN_ST7735_4BTN.md) — the design notes for the SPI display / 4-button conversion, including the exact edge-connector and GPIO pin changes. This is the authoritative reference for the current pinout.
+- Main board: [MicroPicoDrive/ibom-mainboard.html](MicroPicoDrive/ibom-mainboard.html)
+- Cartridge: [MicroPicoDriveCartridge/ibom-cartridge.html](MicroPicoDriveCartridge/ibom-cartridge.html)
 
 ## Credits
 

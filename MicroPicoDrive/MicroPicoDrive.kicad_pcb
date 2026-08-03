@@ -89,7 +89,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "gerbers/")
+			(outputdirectory "gerbers")
 		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"

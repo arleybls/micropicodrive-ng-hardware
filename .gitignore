@@ -37,3 +37,6 @@ fp-info-cache
 
 # Redundant gerber archives (the gerbers/ folders are tracked instead)
 gerbers.zip
+
+# Local design notes, not published
+docs/
