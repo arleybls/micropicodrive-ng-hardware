@@ -35,6 +35,16 @@ Back side — the cartridge's microSD socket, and the main board with the Raspbe
 
 <img src="images/20260803_145758.jpg" alt="Cartridge and main board, back side" width="600">
 
+## Hot-swap guarding
+
+The cartridge can be inserted and removed while the QL is powered, so the edge-connector fingers are staggered to enforce a safe mating order:
+
+- **GND (pin 3) and UI_DETECT (pin 14)** are full length and make contact first. UI_DETECT is tied to GND on the cartridge, so it doubles as a second early ground contact on the opposite face of the board — a tilted insertion finds ground first on either face.
+- **+3V3 (pin 1)** is retracted 1 mm and connects second.
+- **All signal fingers** are retracted 1.75 mm and connect last, once the cartridge is already referenced and powered. On removal the order reverses: the signals break first while the board still has power, so an interrupted transfer fails cleanly instead of back-powering the display and SD card through their protection diodes.
+
+UI_DETECT is read by the main board (GPIO 15, low = cartridge present). The firmware side of the guard — debouncing the detect signal on insertion before initialising the display and SD card, and tri-stating all cartridge signals on removal — is handled in [micropicodrive-ng-firmware](https://github.com/arleybls/micropicodrive-ng-firmware).
+
 ## Fabrication
 
 Gerber and drill files are included for both boards:
