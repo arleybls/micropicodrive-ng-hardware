@@ -6,6 +6,8 @@ This is an evolution of [gusmanb/micropicodrive](https://github.com/gusmanb/micr
 
 This repository contains only the hardware. The firmware lives in a separate repository: [micropicodrive-ng-firmware](https://github.com/arleybls/micropicodrive-ng-firmware).
 
+Fitting the board inside a QL — including the Pico and the optional vibration motor — is covered by the [hardware installation manual](docs/HARDWARE_INSTALLATION_MANUAL.md) ([PDF](docs/HARDWARE_INSTALLATION_MANUAL.pdf)). Day-to-day use, SD cards and firmware updates are in the firmware repository's manual.
+
 ## What changed in this version
 
 The cartridge board was redesigned around a different user-interface module:
@@ -51,6 +53,8 @@ Gerber and drill files are included for both boards:
 
 - Main board: [MicroPicoDrive/gerbers/](MicroPicoDrive/gerbers/)
 - Cartridge: [MicroPicoDriveCartridge/gerbers/](MicroPicoDriveCartridge/gerbers/)
+
+A ready-to-upload JLCPCB package for the main board (Gerbers, BOM and pick-and-place for the SMD parts, with ordering notes) is in [MicroPicoDrive/jlcpcb/](MicroPicoDrive/jlcpcb/).
 
 ## Bill of materials
 

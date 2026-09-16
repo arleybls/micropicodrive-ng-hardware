@@ -38,5 +38,12 @@ fp-info-cache
 # Redundant gerber archives (the gerbers/ folders are tracked instead)
 gerbers.zip
 
-# Local design notes, not published
-docs/
+# Local design notes, not published. The installation manual is the
+# exception: it is the published fitting guide.
+docs/*
+!docs/HARDWARE_INSTALLATION_MANUAL.md
+!docs/HARDWARE_INSTALLATION_MANUAL.pdf
+!docs/images/
+!docs/images/assembly/
+!docs/images/assembly/*.jpg
+!docs/images/assembly/*.png
