@@ -37,6 +37,20 @@ Back side — the cartridge's microSD socket, and the main board with the Raspbe
 
 <img src="images/20260803_145758.jpg" alt="Cartridge and main board, back side" width="600">
 
+## Cartridge panel
+
+A 3D-printable panel fits over the cartridge's display module. It has a window for the screen, openings for the K1–K4 buttons and a slot over the button header. The model is [MicroPicoDriveCartridge/stl/lcd_button_cover_tapered_open.stl](MicroPicoDriveCartridge/stl/lcd_button_cover_tapered_open.stl) (33.5 × 35.5 × 4.4 mm).
+
+Tested print settings:
+
+- Material: matte PLA
+- Layer height: 0.2 mm
+- Walls: 4
+
+Printed in black and fitted to a cartridge in the drive (left), and rendered in the four colours of the ZX Spectrum rainbow stripe (right):
+
+<img src="MicroPicoDriveCartridge/stl/20261017_162632.jpg" alt="Black printed panel fitted over the cartridge's display and buttons" height="250"> <img src="MicroPicoDriveCartridge/stl/cover_zx_rainbow_v2.png" alt="Renders of the cartridge panel in red, yellow, green and cyan" height="250">
+
 ## Hot-swap guarding
 
 The cartridge can be inserted and removed while the QL is powered, so the edge-connector fingers are staggered to enforce a safe mating order:
@@ -53,8 +67,6 @@ Gerber and drill files are included for both boards:
 
 - Main board: [MicroPicoDrive/gerbers/](MicroPicoDrive/gerbers/)
 - Cartridge: [MicroPicoDriveCartridge/gerbers/](MicroPicoDriveCartridge/gerbers/)
-
-A ready-to-upload JLCPCB package for the main board (Gerbers, BOM and pick-and-place for the SMD parts, with ordering notes) is in [MicroPicoDrive/jlcpcb/](MicroPicoDrive/jlcpcb/).
 
 ## Bill of materials
 
